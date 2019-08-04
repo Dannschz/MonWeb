@@ -12,4 +12,5 @@ body {
   background-color: rgb(42, 126, 165);
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
