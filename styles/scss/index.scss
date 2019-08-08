@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    display: grid;
+    grid-column: auto;
+    justify-content: center;
+
+    .header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(50, 169, 190);
+        font-size: 1em;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+
+        .btn-content {
+            color: rgb(255, 255, 255);
+            transition-duration: .3s;
+
+            &:hover {
+                transition-duration: .3s;
+                transform: scale(1.050);
+            }
+        }
+
+        &:hover .btn-content {
+            transition-duration: .3s;
+            transform: scale(1.050);
+        }
+    }
+}
